@@ -33,7 +33,7 @@ local Complete = false
 local Success = 0
 local Fail = 0
 
-local Path = `{game.Name} ({game.PlaceId})`
+local Path = `({game.PlaceId})`
 if not isfolder(Path) then
     makefolder(Path)
 end
